@@ -319,6 +319,9 @@ main.container .blog-tile_wrapper .tile .content p {
     padding-bottom: 8.125rem;
     width: 69.375rem;
   }
+  main.container nav.navigation {
+    margin-bottom: 3.44375rem;
+  }
   main.container .hero_wrapper {
     flex-direction: row;
   }

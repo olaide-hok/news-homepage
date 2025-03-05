@@ -387,8 +387,10 @@ main {
       padding-top: rem(89px);
       padding-bottom: rem(130px);
       width: rem(1110px);
+
       nav {
-        &.links {
+        &.navigation {
+          margin-bottom: rem(55.1px);
         }
       }
       .hero_wrapper {
