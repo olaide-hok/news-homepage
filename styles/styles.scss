@@ -188,6 +188,12 @@ main {
             text-transform: uppercase;
             width: 185px;
             height: 48px;
+
+            &:hover {
+              background-color: $dark-space-blue;
+              color: $almost-white;
+              cursor: pointer;
+            }
           }
         }
       }

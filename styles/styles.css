@@ -167,6 +167,11 @@ main.container .hero_wrapper .content .headline button {
   width: 185px;
   height: 48px;
 }
+main.container .hero_wrapper .content .headline button:hover {
+  background-color: #00001a;
+  color: #fffdfa;
+  cursor: pointer;
+}
 main.container .hero_wrapper .side_column {
   background-color: #00001a;
   padding: 1.5rem 1.25rem;
