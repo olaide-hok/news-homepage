@@ -327,6 +327,7 @@ main.container .blog-tile_wrapper .tile .content p {
   }
   main.container .hero_wrapper .content {
     flex: 1;
+    row-gap: 1.75rem;
   }
   main.container .hero_wrapper .content .desktop {
     display: block;
@@ -334,6 +335,9 @@ main.container .blog-tile_wrapper .tile .content p {
   }
   main.container .hero_wrapper .content .mobile {
     display: none;
+  }
+  main.container .hero_wrapper .content .headline div .subtitle {
+    margin-bottom: 1.8125rem;
   }
   main.container .hero_wrapper .side_column {
     flex: 1;
