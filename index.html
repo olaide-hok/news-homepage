@@ -22,18 +22,56 @@
       <nav class="navigation">
         <img src="./assets/images/logo.svg" alt="web3 logo">
         <ul class="links">
-          <li>Home</li>
-          <li>New</li>
-          <li>Popular</li>
-          <li>Trending</li>
-          <li>Categories</li>
+          <li>
+            <a href="#"> Home </a>
+          </li>
+          <li>
+            <a href="#"> New </a>
+          </li>
+          <li>
+            <a href="#"> Popular </a>
+          </li>
+          <li>
+            <a href="#"> Trending </a>
+          </li>
+          <li>
+            <a href="#"> Categories </a>
+          </li>
         </ul>
-        <img
-          class="mobile-menu"
-          src="./assets/images/icon-menu.svg"
-          alt="icon-menu"
-        >
+
+        <button id="open-menu" class="mobile-menu" type="button">
+          <img src="./assets/images/icon-menu.svg" alt="icon-menu">
+        </button>
       </nav>
+
+      <!-- Mobile Menu -->
+
+      <nav id="mobile-nav" class="mobile_nav d-none">
+        <div>
+          <button type="button" id="close-menu">
+            <img src="./assets/images/icon-menu-close.svg" alt="menu close">
+          </button>
+        </div>
+        <ul class="links">
+          <li>
+            <a href="#"> Home </a>
+          </li>
+          <li>
+            <a href="#"> New </a>
+          </li>
+          <li>
+            <a href="#"> Popular </a>
+          </li>
+          <li>
+            <a href="#"> Trending </a>
+          </li>
+          <li>
+            <a href="#"> Categories </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="overlay" class="d-none"></div>
 
       <section class="hero_wrapper">
         <div class="content">
